@@ -12,6 +12,9 @@
     "format": "pnpm -r format"
   },
   "dependencies": {
+    "@pkg/eslint-config": "workspace:^",
+    "@pkg/prettier-config": "workspace:^",
+    "@pkg/typescript-config": "workspace:^",
     "nx": "^19.1.0"
   },
   "devDependencies": {

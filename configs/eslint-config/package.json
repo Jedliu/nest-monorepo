@@ -1,0 +1,8 @@
+{
+  "name": "@pkg/eslint-config",
+  "version": "0.0.0",
+  "author": "Jedliu",
+  "description": "Shared eslint config",
+  "private": true,
+  "main": "index.js"
+}

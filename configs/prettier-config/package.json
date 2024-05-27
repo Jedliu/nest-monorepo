@@ -1,0 +1,8 @@
+{
+  "name": "@pkg/prettier-config",
+  "version": "0.0.0",
+  "author": "Jedliu",
+  "description": "Shared prettier config",
+  "private": true,
+  "main": "index.js"
+}
