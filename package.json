@@ -6,8 +6,27 @@
     "nestjs",
     "monorepo"
   ],
+  "scripts": {
+    "test": "pnpm -r test",
+    "prepare": "husky install",
+    "format": "pnpm -r format"
+  },
+  "dependencies": {
+    "nx": "^19.1.0"
+  },
   "devDependencies": {
     "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{json,html}": [
+      "prettier --write --ignore-unknown"
+    ]
   }
 }
