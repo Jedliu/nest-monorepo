@@ -1,0 +1,13 @@
+{
+  "name": "nest-monorepo",
+  "version": "1.0.0",
+  "author": "Jedliu",
+  "keywords": [
+    "nestjs",
+    "monorepo"
+  ],
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5"
+  }
+}
